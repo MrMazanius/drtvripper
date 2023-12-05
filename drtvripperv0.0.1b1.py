@@ -7,11 +7,9 @@ import tkinter as tk
 from tkinter import filedialog
 
 def download_and_combine(video_url, audio_url, output_path):
-    # Download video and audio files
     video_content = requests.get(video_url).content
     audio_content = requests.get(audio_url).content
 
-    # Create temporary files for video and audio
     with tempfile.NamedTemporaryFile(delete=False, suffix=".mp4") as video_file:
         video_file.write(video_content)
 
@@ -19,20 +17,16 @@ def download_and_combine(video_url, audio_url, output_path):
         audio_file.write(audio_content)
 
     try:
-        # Create VideoFileClip and AudioFileClip objects
         video_clip = VideoFileClip(video_file.name)
         audio_clip = AudioFileClip(audio_file.name)
 
-        # Combine video and audio
         video_clip = video_clip.set_audio(audio_clip)
 
-        # Write the combined video to the output file
         video_clip.write_videofile(output_path, codec="libx264", audio_codec="aac")
 
         print(f"Combined video saved to {output_path}")
 
     finally:
-        # Clean up temporary files
         os.remove(video_file.name)
         os.remove(audio_file.name)
 
