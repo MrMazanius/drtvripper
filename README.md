@@ -1,4 +1,3 @@
-
 # DRTV Ripper af MrMazanius
 
 Velkommen til DRTV Ripper, et effektivt program udviklet af MrMazanius, der giver dig mulighed for at downloade dine foretrukne serier og film fra drtv.dk. Denne brugervenlige ripper er designet til at gøre processen let og hurtig, så du kan nyde dit indhold offline uden besvær.
@@ -47,3 +46,8 @@ Vi opfordrer også til bidrag fra samfundet for at forbedre DRTV Ripper. Hvis du
 Vi håber, at denne applikation gør din DRTV-oplevelse endnu bedre ved at give dig mulighed for at nyde indholdet offline. 
 Vh. [@MrMazanius](https://github.com/MrMazanius/)
 
+## ANSVARSFRASKRIVELSE
+
+Enhver handling med at downloade filer online skal udføres i overensstemmelse med gældende love og regulativer samt med tilladelse fra retmæssige rettighedshavere. Manglende overholdelse af disse krav kan medføre juridiske konsekvenser. @MrMazanius fraskriver sig ethvert ansvar for ulovlig eller uautoriseret download af filer og opfordrer alle brugere til at respektere gældende lovgivning og respektere ophavsret og andre immaterielle rettigheder.
+
+Vi opfordrer brugere til at være bevidste om og overholde alle gældende love og regler vedrørende download af filer fra internettet. Enhver handling udført uden tilladelse fra rettighedshavere er strengt forbudt, og brugeren alene påtager sig ansvaret for eventuelle konsekvenser af sådanne handlinger.
